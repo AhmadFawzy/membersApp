@@ -1,0 +1,42 @@
+// ===================
+// public styles :-
+body {
+  font-family: 'Lato', sans-serif !important;
+  background-color: $bg_color_light !important;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 0 !important;
+}
+a {
+  text-decoration: none !important;
+  &:hover {
+    color: inherit;
+  }
+}
+// ===================
+// helper classes :-
+.pointer {
+  cursor: pointer;
+}
+
+.white_color {
+  color: $white !important;
+}
+.gray_color-1 {
+  color: $gray-1 !important;
+}
+.gray_color-2 {
+  color: $gray-2 !important;
+}
+.gray_color-3 {
+  color: $gray-3 !important;
+}
+.gray_color-4 {
+  color: $gray-4 !important;
+}
+
+.bg_gradient {
+  background: $bg_color;
+  background: $bg_gradient;
+}
+// ===================
